@@ -1,0 +1,43 @@
+﻿@model HR_System.Models.User
+
+@{
+    ViewBag.Title = "viewAttendanceList";
+}
+
+<h2>Attendance Log</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    
+    <h1><span class="blue"></span>Attendance Log<span class="blue"></span> </h1>
+    <h2>Follow up your Attendance </h2>
+
+    <table class="container">
+        <thead>
+            <tr>
+                <th><h1>Day Date</h1></th>
+                <th><h1>Arrival Time</h1></th>
+                <th><h1>Leave Time</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            foreach (var item in Model){
+                <tr>
+                    <td>@item.</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
