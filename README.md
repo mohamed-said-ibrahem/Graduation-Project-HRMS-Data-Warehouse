@@ -57,5 +57,12 @@ represented by project performance evaluation function.
 already stored data of current and previous employees to determine most suitable candidates to fit or fulfill the shortage 
 of specific skills needed.
  
+## Project Scope:
+• Web Application provides several services for HR(s) and Managers to help them manage all aspects of the workforce 
+in an efficient manner. 
 
+• Provide interfaces for employees to be more involved with Hr and Managers in a transparent mechanism to guarantee 
+integrity and a healthy work environment. 
+
+• Use data warehousing to provide better performance and data analytics for decision making and prediction. 
 
